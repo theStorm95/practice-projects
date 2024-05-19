@@ -1,5 +1,6 @@
 import { Paper } from "@mui/material";
 import React from "react";
+import MainCard from "./components/MainCard";
 
 function App() {
   return (
@@ -12,9 +13,10 @@ function App() {
           padding: "15px",
           minHeight: "75vh",
           borderRadius: "30px",
-          // margin: "10%",
         }}
-      ></Paper>
+      >
+        <MainCard></MainCard>
+      </Paper>
     </div>
   );
 }
