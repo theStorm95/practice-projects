@@ -1,24 +1,7 @@
-import { Paper } from "@mui/material";
-import React from "react";
-import MainCard from "./components/MainCard";
+import MainPage from "./components/MainPage";
 
 function App() {
-  return (
-    <div style={{ backgroundColor: "#175e5d", padding: "10%" }}>
-      <Paper
-        elevation={3}
-        square={false}
-        sx={{
-          width: "75vw",
-          padding: "15px",
-          minHeight: "75vh",
-          borderRadius: "30px",
-        }}
-      >
-        <MainCard></MainCard>
-      </Paper>
-    </div>
-  );
+  return <MainPage />;
 }
 
 export default App;
