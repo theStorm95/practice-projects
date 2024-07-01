@@ -19,14 +19,13 @@ export default function MainPage() {
         elevation={3}
         square={false}
         sx={{
-          width: "60vw",
+          width: "75vw",
           padding: "15px",
-          minHeight: "70vh",
           borderRadius: "30px",
-          backgroundColor: "black",
+          backgroundColor: "#101010",
         }}
       >
-        <MainCard></MainCard>
+        <MainCard />
       </Paper>
     </Grid2>
   );
